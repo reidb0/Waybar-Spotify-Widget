@@ -1,0 +1,11 @@
+{
+  "custom/spotify": {
+    "exec": "python3 -u ~/.config/waybar/scripts/spotify.py",
+    "return-type": "json",
+    "escape": false,
+    "on-click": "playerctl -p spotify status >/dev/null 2>&1 && playerctl -p spotify play-pause || spotify-launcher",
+    "on-click-right": "playerctl -p spotify next",
+    "on-click-middle": "playerctl -p spotify previous",
+    "tooltip": true
+  }
+}

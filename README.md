@@ -1,4 +1,4 @@
-#Add this to your Waybar config (inside "modules-center", "modules-right", etc.): Waybar Spotify Widget
+## Features
 
 A Python script for Waybar that displays:
 
